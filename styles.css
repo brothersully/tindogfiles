@@ -1,0 +1,164 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.ease {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 0 15%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 3.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  position: relative;
+  right: -70px;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.featurebox {
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  width: 80%;
+  margin: auto;
+}
+
+.featuricon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.featuricon:hover {
+  color: #ff4c68;
+}
+
+/*testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.techbrands {
+  width: 10%;
+  margin: 0 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.cardsize {
+  width: 93%;
+}
+
+.pricing-column {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.fa-check {
+  color: #79d70f;
+}
+
+@media (max-width: 1050px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (min-width: 1049px) {
+  #title {
+    height: 650px;
+  }
+}
+
+/* footer and cta section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%
+}
+
+.socialmedia {
+  padding: 15px;
+}
